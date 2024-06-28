@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1704647457 source:c:\users\nathc\onedrive\bureau\cours\upjv\projet hopital\code\code projet hopital\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1704643037 source:c:\users\nathc\onedrive\bureau\cours\upjv\projet hopital\code\code projet hopital\source_ajout_utilisateur.c
+	<stdio.h>
+	<stdlib.h>
+	"Header_Hopital_Ajout_Utilisateur.h"
+
+1704643078 c:\users\nathc\onedrive\bureau\cours\upjv\projet hopital\code\code projet hopital\header_hopital_ajout_utilisateur.h
+
