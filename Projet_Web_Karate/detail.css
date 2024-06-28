@@ -1,0 +1,198 @@
+/* Style pour la section des actualités */
+.actualites {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.actualites h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.actualites .description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  white-space: pre-line;
+  /* Pour respecter les retours à la ligne */
+}
+
+/* Style pour chaque actualité individuelle */
+.actualite {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: end; /* Aligne les éléments enfants au bas */
+}
+
+.actualite img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.actualite img:hover {
+  transform: scale(1.1);
+}
+
+body {
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafaf8;
+}
+
+/* Style pour le bouton de suppression */
+.supprimer-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.supprimer-btn:hover {
+  background-color: #d32f2f;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Centrage horizontal */
+  padding: 0 20px;
+}
+
+.normal-text {
+  font-weight: normal;
+  font-size: 25px;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column; /* Changement de direction pour aligner les éléments verticalement */
+  align-items: center;
+  background-color: #fafaf8;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacement entre le logo et le titre */
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Centrage horizontal */
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0; /* Suppression de la marge pour le titre */
+  color: #000000;
+  font-size: 30px;
+  text-align: center; /* Centrage du titre */
+}
+
+h2 {
+  color: #030303;
+  font-size: 24px;
+  text-align: center; /* Centrage du titre */
+  font-family: "Acme", sans-serif; 
+}
+
+.custom-font {
+  font-family: "Acme", sans-serif; 
+  font-size: 16px; 
+  color: #333; 
+}
+
+.banner {
+  background-color: #c10606;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+p {
+  margin: 0;
+  color: #000000;
+  font-size: 17px;
+  text-align: center; /* Centrage du paragraphe */
+  font-family: "Acme", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin: 0; /* Supprime les marges par défaut */
+}
+
+.nav-link {
+  margin: 0 10px; /* Ajoute une marge entre chaque lien */
+  text-decoration: none;
+  color: #463f3f;
+  transition: color 0.3s, transform 0.3s; /* Ajoute une transition pour la couleur et la transformation */
+}
+
+.nav-link:hover {
+  color: #c10606; /* Change la couleur du lien au survol */
+  transform: scale(1.2); /* Applique un effet de zoom au survol */
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #fafaf8;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto; /* Centrage horizontal */
+  padding: 0 20px;
+}
+
+/* Ajout de l'espacement */
+.container_footer > * {
+  margin-bottom: 15px; 
+}
+
+.login-link {
+  margin-left: auto; /* Déplace l'icône d'utilisateur vers la droite */
+  align-self: flex-start; /* Aligner l'icône d'utilisateur en haut */
+  font-size: 2em; /* Ajuste la taille de l'icône d'utilisateur */
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
