@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActiviteSecondare">
+
+    <Button
+        android:id="@+id/id_button_envoyer"
+        android:layout_width="126dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="Envoyer"
+        android:text="@string/Button"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/ID_button_QuitterActivité2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_saisirLeMessage"
+        app:layout_constraintTop_toBottomOf="@+id/id_RecyclerView" />
+
+    <TextView
+        android:id="@+id/id_TextView"
+        android:layout_width="135dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="9dp"
+        android:text="The best messenger"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/id_RecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id_saisirLeMessage"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="22dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:hint="@string/EditText"
+        android:inputType="text"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:soundEffectsEnabled="false"
+        android:textAllCaps="false"
+        android:textIsSelectable="false"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/ID_button_QuitterActivité2"
+        app:layout_constraintEnd_toStartOf="@+id/id_button_envoyer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_RecyclerView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_RecyclerView"
+        android:layout_width="405dp"
+        android:layout_height="428dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/id_button_envoyer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_TextView" />
+
+    <Button
+        android:id="@+id/ID_button_QuitterActivité2"
+        android:layout_width="247dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="58dp"
+        android:onClick="Quitter"
+        android:text="Quittez l'activité"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_button_envoyer"
+        app:toggleCheckedStateOnClick="false" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

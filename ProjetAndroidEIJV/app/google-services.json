@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634458712618",
+    "project_id": "projet-android-studio-2e6bf",
+    "storage_bucket": "projet-android-studio-2e6bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634458712618:android:aeccb7a62a492b2dc3b153",
+        "android_client_info": {
+          "package_name": "fr.eijv.freijvprojetnote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY6nPlZANwvgRNNGmxGR1kHMYWmQW2USY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
