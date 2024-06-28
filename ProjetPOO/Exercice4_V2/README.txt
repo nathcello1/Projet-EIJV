@@ -1,0 +1,1 @@
+Le code de l'exercice 4 : Chiffrage peut avoir quelques problèmes d'éxecution sous Windows. Si c'est le cas, à executer sous Linux.
